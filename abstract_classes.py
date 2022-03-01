@@ -14,7 +14,6 @@ Em Python uma classe é abstrata de ela tiver pelo menos  método abstrato.
 
 '''
 
-
 from abc import ABC, abstractmethod
 from shutil import move
 
@@ -23,7 +22,6 @@ class Animal(ABC):
     @abstractmethod
     def move(self):
         pass
-
 
 
 class Person(Animal):
