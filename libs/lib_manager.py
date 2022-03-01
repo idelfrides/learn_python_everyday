@@ -110,17 +110,16 @@ def print_log(content):
     return
 
 
-'''
-class HoldInvoices:
 
-    def __init__(self, invoices_obj):
-        self.__invoices_sent = invoices_obj
+class HoldSome:
+
+    def __init__(self, some_obj):
+        self.__some_sent = some_obj
 
     # Getter
     def get_invices_sent(self):
-        return self.__invoices_sent
+        return self.__some_sent
 
     # Setter
-    def set_invices_sent(self, invoices):
-        self.__invoices_sent = invoices
-'''
+    def set_invices_sent(self, some_thing):
+        self.__some_sent = some_thing
