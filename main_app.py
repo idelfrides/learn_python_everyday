@@ -3,7 +3,7 @@
 
 from webScraping.web_scraping import WebScraper
 from abstract_classes import (
-    Person, Dog,
+    Eagle, Person, Dog,
     Cat, Lion
 )
 
@@ -32,6 +32,7 @@ def run_main_app():
 
 def run_abstract_class():
     human = Person()
+    human.attribute = 'I AM MR OBAMA'
     human.move()
 
     dog = Dog()
@@ -43,6 +44,8 @@ def run_abstract_class():
     lion = Lion()
     lion.move()
 
+    eagle = Eagle()
+    eagle.move()
 
 
 
