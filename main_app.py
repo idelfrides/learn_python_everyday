@@ -6,11 +6,13 @@ from abstract_classes import (
     Eagle, Person, Dog,
     Cat, Lion
 )
-
+from libs.lib_manager import (
+    print_log
+)
 
 def run_main_app():
 
-    print('\n\n THIS IS THE MAIN MODULE OF THIS APP \n\n')
+    print_log(f'THIS IS THE MAIN MODULE OF THIS APP \n\n')
 
     scrap_obj = WebScraper()
 
