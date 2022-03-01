@@ -20,6 +20,10 @@ um método abstrato quando é decorado com um método chamado
 '''
 
 from abc import ABC, abstractmethod
+from libs.lib_manager import (
+    print_log
+)
+
 
 class Animal(ABC):
 
@@ -33,20 +37,20 @@ class Animal(ABC):
 class Person(Animal):
     name_type = ''
     def move(self):
-        print(f'\n {self.name_type} AND I CAN WALK \n')
+        print_log(f'{self.name_type} AND I CAN WALK')
 
 class Dog(Animal):
     def move(self):
-        print('\n I AM A DOG AND I CAN LATIR')
+        print_log(f'I AM A DOG AND I CAN LATIR')
 
 class Cat(Animal):
     def move(self):
-        print('\n EU SOU GATO E EU POSSO MIAR')
+        print_log(f'EU SOU GATO E EU POSSO MIAR')
 
 class Lion(Animal):
     def move(self):
-        print('\n EU SOU UM LEÃO E POSSO RUGIR')
+        print_log(f'EU SOU UM LEÃO E POSSO RUGIR')
 
 class Eagle(Animal):
     def move(self):
-        print('\n I AM A EAGLE AND I CAN MAKE A SOUND \n')
+        print_log(f'I AM A EAGLE AND I CAN MAKE A SOUND')
