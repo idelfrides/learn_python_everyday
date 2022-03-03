@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #enconding: utf-9
 
+
 from webScraping.web_scraping import WebScraper
 from abstract_classes import (
     Eagle, Person, Dog,
@@ -20,16 +21,13 @@ def run_main_app():
 
     scrap_obj.scraping_weather()
 
-
     return
-
 
 
 # product_analysis
 # weather_analysis
 # climate_analysis#
 # descout_produt
-
 
 
 def run_abstract_class():
