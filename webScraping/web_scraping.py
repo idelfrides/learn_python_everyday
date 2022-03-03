@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #enconding: utf-9
 
-from cgitb import html
+
 from socket import ntohl
 from bs4 import BeautifulSoup
 import requests
