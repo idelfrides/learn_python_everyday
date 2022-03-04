@@ -34,10 +34,11 @@ def run_main_app():
 
 def run_abstract_class():
     human = Person()
-    human.attribute = 'I AM MR OBAMA'
+    human.name_type = 'MR OBAMA'
     human.move()
 
     dog = Dog()
+    dog.name_type = 'BOBY DOG'
     dog.move()
 
     cat = Cat()

@@ -37,11 +37,12 @@ class Animal(ABC):
 class Person(Animal):
     name_type = ''
     def move(self):
-        print_log(f'{self.name_type} AND I CAN WALK')
+        print_log(f'MY NAME IS {self.name_type}. I AM PERSON AND I CAN WALK')
 
 class Dog(Animal):
+    name_type = ''
     def move(self):
-        print_log(f'I AM A DOG AND I CAN LATIR')
+        print_log(f'MY NAME IS {self.name_type}. I AM A DOG AND I CAN LATIR')
 
 class Cat(Animal):
     def move(self):
