@@ -33,6 +33,7 @@ def run_main_app():
 
 
 def run_abstract_class():
+
     human = Person()
     human.name_type = 'MR OBAMA'
     human.move()
@@ -42,12 +43,15 @@ def run_abstract_class():
     dog.move()
 
     cat = Cat()
+    cat.name_type = 'NICKY CAT'
     cat.move()
 
     lion = Lion()
+    lion.name_type = 'FINCH LION'
     lion.move()
 
     eagle = Eagle()
+    eagle.name_type = 'FLY'
     eagle.move()
 
 

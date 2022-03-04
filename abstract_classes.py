@@ -35,23 +35,24 @@ class Animal(ABC):
 
 
 class Person(Animal):
-    name_type = ''
     def move(self):
-        print_log(f'MY NAME IS {self.name_type}. I AM PERSON AND I CAN WALK')
+        print_log(f'MY NAME IS [ {self.name_type} ]. I AM PERSON AND I CAN WALK')
 
 class Dog(Animal):
     name_type = ''
     def move(self):
-        print_log(f'MY NAME IS {self.name_type}. I AM A DOG AND I CAN LATIR')
+        print_log(f'MY NAME IS [ {self.name_type} ]. I AM A DOG AND I CAN LATIR')
 
 class Cat(Animal):
+    name_type = ''
     def move(self):
-        print_log(f'EU SOU GATO E EU POSSO MIAR')
+        print_log(f'MY NAMA IS [ {self.name_type} ]. I AM A CAT E EU POSSO MIAR')
 
 class Lion(Animal):
+    name_type = ''
     def move(self):
-        print_log(f'EU SOU UM LEÃO E POSSO RUGIR')
+        print_log(f'MY NAME IS [ {self.name_type} ]. EU SOU UM LEÃO E POSSO RUGIR')
 
 class Eagle(Animal):
     def move(self):
-        print_log(f'I AM A EAGLE AND I CAN MAKE A SOUND')
+        print_log(f'MY NAME IS [ {self.name_type} ]. I AM A EAGLE AND I CAN MAKE A SOUND')
