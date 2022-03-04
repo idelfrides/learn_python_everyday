@@ -65,6 +65,7 @@ def chdir_witout_log(distiny_dir=None, return_cwdir=''):
         return os.getcwd()
 
 
+
 def chdir_witout_log_v2(distiny_dir=None, return_cwdir=''):
 
     root_dir = os.path.dirname(os.path.abspath(__file__))
@@ -80,6 +81,7 @@ def chdir_witout_log_v2(distiny_dir=None, return_cwdir=''):
 
     if return_cwdir.upper() == 'YES':
         return os.getcwd()
+
 
 
 def write_output_file(**kwarg):
